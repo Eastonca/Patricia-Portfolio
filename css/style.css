@@ -1,15 +1,12 @@
-p {
-    font-size: 64px;
-    color: purple;
-}
-
-.homePage {
+.homePageButton {
     font-size: 32px;
     color: red;
+    border: 2px solid red;
 }
 
-h1, h2 {
-    color: blue;
+.highlight {
+    text-transform: uppercase;
+    background-color: gold;
 }
 
 .coffeeMan {
@@ -17,7 +14,8 @@ h1, h2 {
     border: 3px solid brown;
 }
 
-.highlight {
-    text-transform: uppercase;
-    background-color: gold;
+body {
+    font-size: 20px;
+    background-color: papayawhip;
+    color: rgb(30, 24, 13);
 }
