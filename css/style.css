@@ -1,0 +1,23 @@
+p {
+    font-size: 64px;
+    color: purple;
+}
+
+.homePage {
+    font-size: 32px;
+    color: red;
+}
+
+h1, h2 {
+    color: blue;
+}
+
+.coffeeMan {
+    width: 500px;
+    border: 3px solid brown;
+}
+
+.highlight {
+    text-transform: uppercase;
+    background-color: gold;
+}
