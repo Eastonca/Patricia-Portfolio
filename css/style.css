@@ -1,7 +1,45 @@
-.homePageButton {
-    font-size: 32px;
-    color: red;
-    border: 2px solid red;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.container {
+    border: 10px double red;
+    outline: 5px solid purple;
+    outline-offset: -20px;
+    font-size: 1.5rem;
+    margin: 1.5em;
+    padding: 1.5em;
+}
+
+.circle {
+    margin: 3rem auto;
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 50px;
+    outline: 2px solid red;
+    outline-offset: 0.25rem; 
+    overflow: hidden;
+    display: flex;
+}
+
+.AIPatricia {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* keeps aspect ratio while filling */
+}
+
+body {
+    min-height: 100vh;
+    background-color: papayawhip;
+}
+
+h2 {
+    font-size: 2rem;
+    color: brown;
 }
 
 .highlight {
@@ -12,10 +50,4 @@
 .coffeeMan {
     width: 500px;
     border: 3px solid brown;
-}
-
-body {
-    font-size: 20px;
-    background-color: papayawhip;
-    color: rgb(30, 24, 13);
 }
