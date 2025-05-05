@@ -1,17 +1,17 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 } 
-
-.container {
+ */
+/* .container {
     border: 10px double red;
     outline: 5px solid purple;
     outline-offset: -20px;
     font-size: 1.5rem;
     margin: 1.5em;
     padding: 1.5em;
-}
+} */
 
 .circle {
     margin: 3rem auto;
@@ -20,7 +20,7 @@
     height: 100px;
     border: 2px solid black;
     border-radius: 50px;
-    outline: 2px solid red;
+    outline: 2px solid brown;
     outline-offset: 0.25rem; 
     overflow: hidden;
     display: flex;
@@ -34,20 +34,31 @@
 
 body {
     min-height: 100vh;
-    background-color: papayawhip;
+    padding: 5% 10%;
+    font-size: 1.5rem;
 }
 
-h2 {
-    font-size: 2rem;
-    color: brown;
+ol {
+    list-style-type: lower-alpha;
+    padding: 0;
 }
 
-.highlight {
-    text-transform: uppercase;
-    background-color: gold;
+ul {
+    list-style-type: square;
+    text-align: center;
+    list-style-position: inside;
+    color: blue;
+    line-height: 1.6;
+    list-style: square inside;
 }
 
-.coffeeMan {
-    width: 500px;
-    border: 3px solid brown;
+ul li:nth-child(2) {
+    color: red;
+}
+
+ul ::marker {
+    color: red;
+    font-family: fantasy; 
+    font-size: 1em;
+    content: "Only $5 >> "
 }
