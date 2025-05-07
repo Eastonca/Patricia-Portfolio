@@ -31,6 +31,13 @@ nav {
     display: flex;
 }
 
+.image-row {
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    gap: 1rem;
+}
+
 section .quote {
     margin-top: 0.5rem;
     text-indent: 3rem;
@@ -41,10 +48,9 @@ section .quote {
 
 section img:not(.profile img) {
     border-radius: 10%;
-    margin-left: 3rem;
     margin-top: 2rem;
-    width: 150px;
-    height: 150px;
+    width: 25%;
+    height: auto;
 }
 
 .left {
