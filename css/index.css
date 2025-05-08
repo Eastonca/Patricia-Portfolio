@@ -6,10 +6,13 @@
 
 body {
     background-color: #FFEDFA;
+    min-height: 200vh;
 }
 
-nav {
+header {
     font-size: 1.5rem;
+    top: 0;
+    position: sticky;
 }
 
 .title {
@@ -35,7 +38,17 @@ nav {
     display: flex;
     justify-content: center; 
     align-items: center;  
-    gap: 1rem;
+    gap: 2rem;
+}
+
+.profile:hover {
+    transform: rotate(3600deg);
+    transition: 3s; 
+}
+
+.icon:hover {
+    transform: scale(1.15);
+    transition: 0.5s;
 }
 
 section .quote {
@@ -46,7 +59,7 @@ section .quote {
     font-size: 1.3rem;
 }
 
-section img:not(.profile img) {
+.image-row img {
     border-radius: 10%;
     margin-top: 2rem;
     width: 25%;
@@ -66,6 +79,7 @@ section img:not(.profile img) {
 section {
     margin: 0 1rem 0 1rem;
     background-color: #fbc0e1;
+    border-radius: 5px;
     border: 1px solid #BE5985;
     padding: 1rem;
     display: flow-root; 
